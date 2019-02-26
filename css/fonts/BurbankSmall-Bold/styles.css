@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'BurbankSmall-Bold';
+  src: url('BurbankSmall-Bold.eot?#iefix') format('embedded-opentype'),  url('BurbankSmall-Bold.otf')  format('opentype'),
+	     url('BurbankSmall-Bold.woff') format('woff'), url('BurbankSmall-Bold.ttf')  format('truetype'), url('BurbankSmall-Bold.svg#BurbankSmall-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

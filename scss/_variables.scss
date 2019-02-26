@@ -9,10 +9,10 @@ $white:    #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
+$gray-400: #CFCFCF !default;
+$gray-500: #9B9B9B !default;
 $gray-600: #6c757d !default;
-$gray-700: #495057 !default;
+$gray-700: #494949 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black:    #000 !default;
@@ -36,11 +36,11 @@ $grays: map-merge(
 
 $blue:    #007bff !default;
 $indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
+$purple:  #8759F2 !default;
 $pink:    #e83e8c !default;
-$red:     #dc3545 !default;
-$orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
+$red:     #FF151F !default;
+$orange:  #FFE19C !default;
+$yellow:  #FFC302 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
@@ -60,20 +60,22 @@ $colors: map-merge(
     "teal":       $teal,
     "cyan":       $cyan,
     "white":      $white,
-    "gray":       $gray-600,
-    "gray-dark":  $gray-800
+    "gray-light": $gray-400,
+    "gray-medium":$gray-500,
+    "gray-dark":  $gray-700
   ),
   $colors
 );
 
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
+$primary:       $purple !default;
+$secondary:     $orange !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         $gray-100 !default;
-$dark:          $gray-800 !default;
+$light:         $gray-400 !default;
+$medium:        $gray-500;
+$dark:          $gray-700 !default;
 
 $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -98,7 +100,7 @@ $theme-color-interval:      8% !default;
 $yiq-contrasted-threshold:  150 !default;
 
 // Customize the light and dark text colors for use in our YIQ color contrast function.
-$yiq-text-dark:             $gray-900 !default;
+$yiq-text-dark:             $gray-700 !default;
 $yiq-text-light:            $white !default;
 
 
@@ -162,14 +164,14 @@ $sizes: map-merge(
 // Settings for the `<body>` element.
 
 $body-bg:                   $white !default;
-$body-color:                $gray-900 !default;
+$body-color:                $gray-700 !default;
 
 
 // Links
 //
 // Style anchor elements.
 
-$link-color:                              theme-color("primary") !default;
+$link-color:                              theme-color("dark") !default;
 $link-decoration:                         none !default;
 $link-hover-color:                        darken($link-color, 15%) !default;
 $link-hover-decoration:                   underline !default;
@@ -230,7 +232,7 @@ $line-height-lg:              1.5 !default;
 $line-height-sm:              1.5 !default;
 
 $border-width:                1px !default;
-$border-color:                $gray-300 !default;
+$border-color:                $gray-400 !default;
 
 $border-radius:               .25rem !default;
 $border-radius-lg:            .3rem !default;
