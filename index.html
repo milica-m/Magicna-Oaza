@@ -62,79 +62,75 @@ and open the template in the editor.
     <body>
 
         <header class="fixed-top container">
-            <nav class="navbar navbar-expand-lg navbar-light">
+            <nav class="navbar navbar-expand-md navbar-light p-0">
+                
                 <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""/></a>
-                <div class="header-action d-flex justify-conten-between">
+                
+                <div class="header-action ml-md-auto">
                     <a href="#" class="club">Klub</a>
-                    <div class="search">
-                        <span class="fa fa-search"></span>
+                    <div>
+                        <span class="search">
+                            <img src="css/assets/search.png" alt=""/>
+                        </span>
                         <form></form>
                     </div>
-                    <a href="#" class="fa fa-heart"></a>
+                    <a href="#"><img src="css/assets/3J.png" alt=""/></a>
                     <div class="small-cart">
-                        <a>
+                        <a href="#">
                             <img src="css/assets/cart.png" alt=""/>
+                            <span class="num-shopping-items">2</span>                            
                         </a>
-                        <span>2</span>
+                        
+                        <!---------- shopping cart----------->
+                        
+<!--                        <div class="small-cart-content">
+                            <div class="small-cart-header">
+                                <h2>Korpa</h2>
+                                <p>Vasa korpa je prazna</p>
+                            </div>
+                            <div class="small-cart-product">
+                                implementirati mcustomscrollbar jquery plugin
+                            </div>
+                            <div class="small-cart-price">
+                                <div class="d-flex justify-content-between"> Cena artikla</div>
+                                <div class="d-flex justify-content-between">Dostava</div>
+                                <div class="d-flex justify-content-between">Ukupan iznos</div>
+                            </div>
+                            <div class="small-cart-action">
+                                <a href="#">Nastavi kupovinu</a>
+                                <a href="#">Naruci</a>
+                            </div>
+                            
+                        </div>-->
+                <!----------------shopping cart end---------------->
+                        
                     </div>
-                    <div class="small-cart-content">
-                        <div class="small-cart-header">
-                            <h2>Korpa</h2>
-                            <p>Vasa korpa je prazna</p>
-                        </div>
-                        <div class="small-cart-product">
-                            <!--implementirati mcustomscrollbar jquery plugin-->
-                        </div>
-                        <div class="small-cart-price">
-                            <div class="d-flex justify-conten-between"></div>
-                            <div class="d-flex justify-conten-between"></div>
-                            <div class="d-flex justify-conten-between"></div>
-                        </div>
-                        <div class="small-cart-action d-flex">
-                            <a href="#">Nastavi kupovinu</a>
-                            <a href="#">Naruci</a>  
-                        </div>
-                    </div>
-                    
                 </div>
+                
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="main-menu">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item dropdown active">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Prodavnica
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                
-                                <a class="dropdown-item" href="#">Igracke</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Dvoriste</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Plaza</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Za skolu</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Plaza</a>
-                            </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Prodavnica <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Veleprodaja <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#">Veleprodaja</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Akcija</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">NOVO</a>
+                            <a class="nav-link" href="#">Novo</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Kontakt</a>
                         </li>
                         
                     </ul>
-                   
+                    
                 </div>
             </nav>
         </header>

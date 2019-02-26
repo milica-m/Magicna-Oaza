@@ -313,4 +313,14 @@ body {
   font-family: "GothamRounded-Bold";
   font-size: 12px; }
 
+header .navbar-brand {
+  max-width: 40%; }
+header .navbar-toggler {
+  border-color: #494949 !important; }
+header .header-action {
+  position: relative; }
+header .num-shopping-items {
+  position: absolute;
+  margin-right: 5px; }
+
 /*# sourceMappingURL=theme.css.map */
