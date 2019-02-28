@@ -12,14 +12,34 @@ header{
     .navbar-toggler{
         border-color: $gray-700 !important;
     }
+
+    .navbar{
+        div{
+            max-width: 100px;
+
+        }
+    }
     
+    .club{
+                background-color: $red !important;
+                border-radius: 20px;
+            }
+
     .header-action{
         position: relative;
     }
     .num-shopping-items{
         position: absolute;
-       
-        margin-right: 5px;
+        top:0;
+        right: 0;
+        margin-bottom: 5px;
+        background-color: $red;
+        border-radius: 50%;
+        font-size: 7px;
+        line-height: 5px;
+        padding: 4px;
+        color: $white;     
     }
+    
 }
 

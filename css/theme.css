@@ -317,10 +317,20 @@ header .navbar-brand {
   max-width: 100px; }
 header .navbar-toggler {
   border-color: #494949 !important; }
+header .navbar div {
+  max-width: 100px; }
 header .header-action {
   position: relative; }
 header .num-shopping-items {
   position: absolute;
-  margin-right: 5px; }
+  top: 0;
+  right: -3px;
+  margin-bottom: 5px;
+  background-color: #FF151F;
+  border-radius: 50%;
+  font-size: 7px;
+  line-height: 5px;
+  padding: 4px;
+  color: #fff; }
 
 /*# sourceMappingURL=theme.css.map */
