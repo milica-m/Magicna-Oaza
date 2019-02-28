@@ -317,14 +317,26 @@ header .navbar-brand {
   max-width: 100px; }
 header .navbar-toggler {
   border-color: #494949 !important; }
-header .navbar div {
-  max-width: 100px; }
+header .navbar {
+    /*    .search-items{
+    position: relative;
+}*/ }
+  header .navbar div {
+    max-width: 100px; }
+  header .navbar .search {
+    cursor: pointer; }
+  header .navbar .search-form {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    display: none; }
 header .header-action {
   position: relative; }
 header .num-shopping-items {
   position: absolute;
   top: 0;
-  right: -3px;
+  right: 0;
   margin-bottom: 5px;
   background-color: #FF151F;
   border-radius: 50%;
@@ -332,5 +344,24 @@ header .num-shopping-items {
   line-height: 5px;
   padding: 4px;
   color: #fff; }
+header .small-cart-content {
+  position: fixed;
+  right: -1000px;
+  top: 0;
+  height: 100vh;
+  width: 280px;
+  transition: 1s linear; }
+header .small-cart.active {
+  right: 0; }
+header .close-small-cart {
+  width: 40px;
+  height: 40px;
+  background-color: #FF151F;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  right: 100%;
+  top: 0;
+  font-size: 1rem; }
 
 /*# sourceMappingURL=theme.css.map */

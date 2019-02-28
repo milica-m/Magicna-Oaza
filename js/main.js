@@ -32,6 +32,20 @@ $(document).ready(function () {
         animation();
     });
 
+$('.search').click(function(){
+   $(this).next().slideToggle;
+});
+
+
+$('.cart-icon').click(function(){
+    $(this).next().addClass('active');
+});
+
+$('.close-small-cart').click(function(){
+    $(this).parent().removeClass('active');
+});
+
+
 });//end document.ready
 
 
