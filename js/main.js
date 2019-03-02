@@ -33,17 +33,32 @@ $(document).ready(function () {
     });
 
 $('.search').click(function(){
-   $(this).next().slideToggle;
+   $(this).next().slideToggle();
 });
 
 
-$('.cart-icon').click(function(){
-    $(this).next().addClass('active');
-});
+$('.small-cart-icon').click(function(){
+        $(this).next().addClass('active');
+        $('.body-overlay').show(0);
+        $('.search-form').slideUp();
+    });
 
 $('.close-small-cart').click(function(){
-    $(this).parent().removeClass('active');
-});
+        $(this).parent().removeClass('active');
+        $('.body-overlay').hide(0);
+    });
+    
+    
+    if($('.owl-carousel').length > 0){
+        
+        $('.lead-slider').owlCarousel({
+           items: 1,
+           dots: true,
+           loop: true,
+           nav: true,
+           navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>']
+        });
+    }
 
 
 });//end document.ready
