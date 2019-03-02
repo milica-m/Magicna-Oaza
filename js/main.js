@@ -56,6 +56,9 @@ $('.close-small-cart').click(function(){
            dots: true,
            loop: true,
            nav: true,
+           autoplay: true,
+           autoplayTimeout:4000,
+        autoplayHoverPause:true,
            navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>']
         });
     }

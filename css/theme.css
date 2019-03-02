@@ -364,12 +364,39 @@ header .close-small-cart {
   top: 0;
   font-size: 1rem; }
 
-.lead-slider-wrapper li {
-  background-size: cover;
-  background-position: center center; }
-  .lead-slider-wrapper li .container {
-    padding-top: 200px;
-    padding-bottom: 150px; }
+.lead-slider-wrapper {
+  position: relative; }
+  .lead-slider-wrapper li {
+    background-size: cover;
+    background-position: center center; }
+    .lead-slider-wrapper li .container {
+      padding-top: 200px;
+      padding-bottom: 150px;
+      padding: 50px; }
+  .lead-slider-wrapper h1 {
+    font-family: "BurbankSmall-Bold";
+    font-size: 3.75rem; }
+  .lead-slider-wrapper .lead {
+    font-family: "GothamRounded-Book";
+    font-size: 1.25; }
+  .lead-slider-wrapper .btn-warning {
+    border-radius: 20px;
+    color: #fff !important; }
+  .lead-slider-wrapper .owl-nav {
+    display: none; }
+  .lead-slider-wrapper .owl-dots {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 100%; }
+  .lead-slider-wrapper .owl-carousel .owl-dots .owl-dot span {
+    width: 11px;
+    height: 11px;
+    color: #CFCFCF;
+    margin-right: 13px; }
+  .lead-slider-wrapper .owl-carousel .owl-dots .owl-dot.active span,
+  .lead-slider-wrapper .owl-carousel .owl-dots .owl-dot:hover span {
+    background-color: #FFC302 !important; }
 
 /*
 To change this license header, choose License Headers in Project Properties.

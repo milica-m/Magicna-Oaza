@@ -1,5 +1,8 @@
 
 .lead-slider-wrapper{
+    position: relative;
+    
+     
     li{
         background-size: cover;
         background-position: center center;
@@ -7,6 +10,43 @@
         .container{
             padding-top: 200px;
             padding-bottom: 150px;
+            padding: 50px;
         }
+    }
+    h1{
+        font-family: $burbank-smal-bold;
+        font-size: 3.75rem;
+    }
+    .lead{
+        font-family: $gotham-rounded-Book;
+        font-size: 1.25;
+    }
+    
+    .btn-warning{
+        border-radius: 20px;
+        color: $white !important;
+    }
+    
+    .owl-nav{
+        display: none;
+    }
+    
+    .owl-dots{
+        position: absolute;
+        bottom: 15px;
+        left: 0;
+        width: 100%;
+    }
+    
+    .owl-carousel .owl-dots .owl-dot span{
+        width: 11px;
+        height: 11px;
+        color: $gray-400;
+        margin-right: 13px;
+    }
+    
+    .owl-carousel .owl-dots .owl-dot.active span, 
+    .owl-carousel .owl-dots .owl-dot:hover span{
+        background-color: $warning !important;
     }
 }
