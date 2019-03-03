@@ -60,26 +60,28 @@ $('.close-small-cart').click(function(){
            nav: true,
            autoplay: true,
            autoplayTimeout:4000,
-        autoplayHoverPause:true,
+            autoplayHoverPause:true,
            navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>']
         });
         
-        
-//        //BRAND SLIDER
 //        $('.brand-slider').owlCarousel({
-//           items: 8,
-//           
+//           items: 10,
 //           autoplay: true,
 //           autoplayTimeout:4000,
-//        autoplayHoverPause:true
-//           
+//            autoplayHoverPause:true,
+//           navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>']
 //        });
-        
-        }
-       
-     
-    
+//        
+//        $('.most-seller').owlCarousel({
+//           items: 4,
+//           autoplay: true,
+//           autoplayTimeout:4000,
+//            autoplayHoverPause:true,
+//           navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>']
+//        });
 
+
+}
 
 });//end document.ready
 
