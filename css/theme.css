@@ -415,13 +415,14 @@ header .close-small-cart {
 
 .most-seller .section-title {
   font-family: "BurbankSmall-Bold";
-  font-size: 2.5rem;
+  font-size: 2rem;
   background-image: url("assets/Group 3.png");
   background-repeat: no-repeat;
   background-position: center;
   text-align: center; }
 .most-seller .product-item {
-  position: relative; }
+  position: relative;
+  padding: 15px; }
 .most-seller .sticker-discount {
   position: absolute;
   top: 0;
@@ -435,12 +436,12 @@ header .close-small-cart {
   line-height: 75px;
   font-size: 1.5rem; }
 .most-seller .product-detail h5 {
-  font-family: "GothamRounded-Book";
-  font-size: 1.25rem; }
+  font-family: "GothamRounded-Book"; }
+.most-seller .product-detail .old-price strike {
+  font-size: 13px;
+  color: #9B9B9B; }
 .most-seller ul.owl-carousel {
   display: block; }
-.most-seller .product-item {
-  padding: 30px; }
 
 /*
 To change this license header, choose License Headers in Project Properties.
