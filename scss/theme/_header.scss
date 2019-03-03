@@ -6,22 +6,30 @@ body{
     font-size: 16px;
 }
 header{
-    .navbar-brand{
-        max-width: 100px;
-    }
     .navbar-toggler{
         border-color: $gray-700 !important;
     }
 
     .navbar{       
         
-        div{
+        img{
             max-width: 100px;        
         }
+        @media(min-width: 992px){
+            max-width: 100%;
+        }
         
-        /*    .search-items{
+        .club{
+            background-color: $red;
+            border-radius: 20px;
+            padding: 3px 15px;
+            color: $white;
+        }
+        
+            .search-items{
         position: relative;
-    }*/
+    }
+        
     
         .search{
             cursor: pointer;
@@ -43,7 +51,10 @@ header{
 
     .header-action{
         position: relative;
-    }
+        
+        }
+    
+   
     .num-shopping-items{
         position: absolute;
         top:0;

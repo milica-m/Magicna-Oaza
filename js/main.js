@@ -61,7 +61,23 @@ $('.close-small-cart').click(function(){
         autoplayHoverPause:true,
            navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>']
         });
-    }
+        }
+       
+//    if($('.owl-carousel').length > 0){
+//        
+//        $('.brand-slider').owlCarousel({
+//           items: 10,
+//           dots: true,
+//           loop: true,
+//           nav: true,
+//           autoplay: true,
+//           autoplayTimeout:4000,
+//        autoplayHoverPause:true
+//           
+//        });
+   // }
+        
+    
 
 
 });//end document.ready

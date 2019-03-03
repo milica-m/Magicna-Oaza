@@ -39,6 +39,11 @@ html {
 img {
   max-width: 100%; }
 
+.btn {
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: #fff; }
+
 .img-holder {
   position: relative;
   background: #ccc url("assets/logo-small.png") no-repeat center center;
@@ -313,24 +318,28 @@ body {
   font-family: "GothamRounded-Bold";
   font-size: 16px; }
 
-header .navbar-brand {
-  max-width: 100px; }
 header .navbar-toggler {
   border-color: #494949 !important; }
-header .navbar {
-    /*    .search-items{
-    position: relative;
-}*/ }
-  header .navbar div {
-    max-width: 100px; }
-  header .navbar .search {
-    cursor: pointer; }
-  header .navbar .search-form {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    display: none; }
+header .navbar img {
+  max-width: 100px; }
+@media (min-width: 992px) {
+  header .navbar {
+    max-width: 100%; } }
+header .navbar .club {
+  background-color: #FF151F;
+  border-radius: 20px;
+  padding: 3px 15px;
+  color: #fff; }
+header .navbar .search-items {
+  position: relative; }
+header .navbar .search {
+  cursor: pointer; }
+header .navbar .search-form {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  display: none; }
 header .header-action {
   position: relative; }
 header .num-shopping-items {
@@ -375,7 +384,8 @@ header .close-small-cart {
       padding: 50px; }
   .lead-slider-wrapper h1 {
     font-family: "BurbankSmall-Bold";
-    font-size: 3.75rem; }
+    font-size: 3.75rem;
+    padding-top: 200px; }
   .lead-slider-wrapper .lead {
     font-family: "GothamRounded-Book";
     font-size: 1.25; }
@@ -397,6 +407,11 @@ header .close-small-cart {
   .lead-slider-wrapper .owl-carousel .owl-dots .owl-dot.active span,
   .lead-slider-wrapper .owl-carousel .owl-dots .owl-dot:hover span {
     background-color: #FFC302 !important; }
+
+.brand-slider .owl-carousel {
+  display: block; }
+  .brand-slider .owl-carousel a img {
+    padding: 10px; }
 
 /*
 To change this license header, choose License Headers in Project Properties.
