@@ -26,6 +26,7 @@ footer{
             border: 1px solid #494949;
             padding: 10px 15px;
             margin-bottom: 20px;
+            background-color: transparent;
         }
         
         .newsletter-items button{
@@ -35,6 +36,8 @@ footer{
         }
     }
     
-    
+    .footer-bottom{
+        text-align: center;
+    }
 }
 

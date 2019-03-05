@@ -516,10 +516,13 @@ footer {
     border-radius: 20px;
     border: 1px solid #494949;
     padding: 10px 15px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    background-color: transparent; }
   footer .row .newsletter-items button {
     background: #F6F2FF;
     padding: 10px 40px;
     border-radius: 20px; }
+  footer .footer-bottom {
+    text-align: center; }
 
 /*# sourceMappingURL=theme.css.map */
