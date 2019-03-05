@@ -435,8 +435,22 @@ header .close-small-cart {
   text-align: center;
   line-height: 75px;
   font-size: 1.5rem; }
+.most-seller .sticker-new {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #FF151F;
+  border-radius: 20px;
+  color: #fff;
+  text-transform: uppercase; }
+  .most-seller .sticker-new p {
+    margin-bottom: 0;
+    padding: 2px 12px;
+    font-size: 14px; }
 .most-seller .product-detail h5 {
   font-family: "GothamRounded-Book"; }
+.most-seller .product-detail .current-price {
+  margin-top: 10px; }
 .most-seller .product-detail .old-price strike {
   font-size: 13px;
   color: #9B9B9B; }
@@ -488,5 +502,24 @@ and open the template in the editor.
     Created on : Feb 28, 2019, 9:51:18 PM
     Author     : User
 */
+footer {
+  background: #FFE19C; }
+  footer .row .footer-nav-link a {
+    font-size: 14px;
+    display: block;
+    text-decoration: none; }
+  footer .row .footer-nav-link a:hover {
+    color: #9B9B9B; }
+  footer .row .newsletter-items h5 {
+    font-size: 14px; }
+  footer .row .newsletter-items input {
+    border-radius: 20px;
+    border: 1px solid #494949;
+    padding: 10px 15px;
+    margin-bottom: 20px; }
+  footer .row .newsletter-items button {
+    background: #F6F2FF;
+    padding: 10px 40px;
+    border-radius: 20px; }
 
 /*# sourceMappingURL=theme.css.map */

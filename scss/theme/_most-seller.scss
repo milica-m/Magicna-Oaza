@@ -32,10 +32,30 @@
         
     }
     
+    .sticker-new{
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: $red;
+        border-radius: 20px;
+        color: $white;
+        text-transform: uppercase;
+        
+        p{
+            margin-bottom: 0;
+            padding: 2px 12px;
+            font-size: 14px;
+        }
+    }
+    
     .product-detail{
         
         h5{
         font-family: $gotham-rounded-Book;
+        }
+        
+        .current-price{
+            margin-top: 10px;
         }
         
         .old-price strike{

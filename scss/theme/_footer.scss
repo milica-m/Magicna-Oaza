@@ -1,2 +1,40 @@
 
 
+footer{
+    
+    background: #FFE19C;
+    
+     
+     
+    
+    .row{
+        .footer-nav-link a{
+            font-size: 14px;
+            display: block;
+            text-decoration: none;
+        }
+        .footer-nav-link a:hover{
+            color: $gray-500;
+        }
+        
+        .newsletter-items h5{
+            font-size: 14px;
+        }
+        
+        .newsletter-items input{
+            border-radius: 20px;
+            border: 1px solid #494949;
+            padding: 10px 15px;
+            margin-bottom: 20px;
+        }
+        
+        .newsletter-items button{
+            background: #F6F2FF;
+            padding: 10px 40px;
+            border-radius: 20px;
+        }
+    }
+    
+    
+}
+
