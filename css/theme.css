@@ -322,16 +322,11 @@ header .navbar-toggler {
   border-color: #494949 !important; }
 header .navbar img {
   max-width: 100px; }
-@media (min-width: 992px) {
-  header .navbar {
-    max-width: 100%; } }
 header .navbar .club {
   background-color: #FF151F;
   border-radius: 20px;
   padding: 3px 15px;
   color: #fff; }
-header .navbar .search-items {
-  position: relative; }
 header .navbar .search {
   cursor: pointer; }
 header .navbar .search-form {
@@ -340,8 +335,6 @@ header .navbar .search-form {
   left: 0;
   width: 100%;
   display: none; }
-header .header-action {
-  position: relative; }
 header .num-shopping-items {
   position: absolute;
   top: 0;
@@ -360,7 +353,7 @@ header .small-cart-content {
   height: 100vh;
   width: 280px;
   transition: 1s linear; }
-header .small-cart.active {
+header .small-cart-content.active {
   right: 0; }
 header .close-small-cart {
   width: 40px;
@@ -372,7 +365,12 @@ header .close-small-cart {
   right: 100%;
   top: 0;
   font-size: 1rem; }
+header .cart-icon {
+  position: relative; }
 
+@media (min-width: 992px) {
+  header .navbar img {
+    max-width: 100%; } }
 .lead-slider-wrapper {
   position: relative; }
   .lead-slider-wrapper li {

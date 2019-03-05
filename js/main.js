@@ -37,14 +37,15 @@ $('.search').click(function(){
 });
 
 
-$('.small-cart-icon').click(function(){
+$('.small-cart-icon .cart-icon').click(function(e){
+    e.preventDefault();
         $(this).next().addClass('active');
         $('.body-overlay').show(0);
         $('.search-form').slideUp();
     });
 
 $('.close-small-cart').click(function(){
-        $(this).parent().removeClass('active');
+        $(this).closest('.small-cart-content').removeClass('active');
         $('.body-overlay').hide(0);
     });
     
@@ -64,21 +65,21 @@ $('.close-small-cart').click(function(){
            navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>']
         });
         
-//        $('.brand-slider').owlCarousel({
-//           items: 10,
-//           autoplay: true,
-//           autoplayTimeout:4000,
-//            autoplayHoverPause:true,
-//           navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>']
-//        });
-//        
-//        $('.most-seller').owlCarousel({
-//           items: 4,
-//           autoplay: true,
-//           autoplayTimeout:4000,
-//            autoplayHoverPause:true,
-//           navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>']
-//        });
+        $('.brand-slider').owlCarousel({
+           items: 10,
+           autoplay: true,
+           autoplayTimeout:4000,
+            autoplayHoverPause:true,
+           navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>']
+        });
+        
+        $('.most-seller-slider').owlCarousel({
+           items: 4,
+           autoplay: true,
+           autoplayTimeout:4000,
+            autoplayHoverPause:true,
+           navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>']
+        });
 
 
 }
