@@ -67,6 +67,7 @@ $('.close-small-cart').click(function(){
         
         $('.brand-slider').owlCarousel({
            items: 10,
+           dots: false,
            autoplay: true,
            autoplayTimeout:4000,
             autoplayHoverPause:true,

@@ -15,17 +15,24 @@
     }
     h1{
         font-family: $burbank-smal-bold;
-        font-size: 3.75rem;
-        padding-top: 200px;
+        font-size: 2rem;
+        padding-top: 150px;
     }
-    .lead{
+    .lead-title{
         font-family: $gotham-rounded-Book;
-        font-size: 1.25;
+        font-size: 0.5 !important;
     }
     
     .btn-warning{
+        border-radius: 36px;
+        color: $white !important;
+    }
+    
+    .btn-warning:hover{
         border-radius: 20px;
         color: $white !important;
+        background-color: #FFE19C !important;
+        border-color: #FFE19C;
     }
     
     .owl-nav{
@@ -49,5 +56,48 @@
     .owl-carousel .owl-dots .owl-dot.active span, 
     .owl-carousel .owl-dots .owl-dot:hover span{
         background-color: $warning !important;
+    }
+}
+
+@media(min-width:576px){
+    .lead-slider-wrapper{
+           h1{
+      font-size: 3rem;
+padding-top: 150px;  
+    } 
+    .lead-title{
+        font-family: $gotham-rounded-Book;
+        font-size: 1 !important;
+    }
+    }
+
+
+    
+    
+}
+
+
+@media(min-width:768px){
+    .lead-slider-wrapper{
+    h1{
+        font-size: 3.5rem;
+   padding-top: 200px;   
+    }
+
+}
+}
+
+@media(min-width:992px){
+    
+    .lead-slider-wrapper{
+        h1{
+         font-size: 3.75rem;   
+        }
+        
+        .navbar{
+             img{
+            max-width: 100%;
+        }
+        }
     }
 }

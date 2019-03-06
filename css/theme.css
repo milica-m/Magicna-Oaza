@@ -40,7 +40,7 @@ img {
   max-width: 100%; }
 
 .btn {
-  border-radius: 20px;
+  border-radius: 36px;
   padding: 10px 20px;
   color: #fff; }
 
@@ -367,6 +367,8 @@ header .close-small-cart {
   font-size: 1rem; }
 header .cart-icon {
   position: relative; }
+header .lead-slider-wrapper h1 {
+  font-size: 1.5rem; }
 
 @media (min-width: 992px) {
   header .navbar img {
@@ -382,14 +384,19 @@ header .cart-icon {
       padding: 50px; }
   .lead-slider-wrapper h1 {
     font-family: "BurbankSmall-Bold";
-    font-size: 3.75rem;
-    padding-top: 200px; }
-  .lead-slider-wrapper .lead {
+    font-size: 2rem;
+    padding-top: 150px; }
+  .lead-slider-wrapper .lead-title {
     font-family: "GothamRounded-Book";
-    font-size: 1.25; }
+    font-size: 0.5 !important; }
   .lead-slider-wrapper .btn-warning {
-    border-radius: 20px;
+    border-radius: 36px;
     color: #fff !important; }
+  .lead-slider-wrapper .btn-warning:hover {
+    border-radius: 20px;
+    color: #fff !important;
+    background-color: #FFE19C !important;
+    border-color: #FFE19C; }
   .lead-slider-wrapper .owl-nav {
     display: none; }
   .lead-slider-wrapper .owl-dots {
@@ -406,34 +413,51 @@ header .cart-icon {
   .lead-slider-wrapper .owl-carousel .owl-dots .owl-dot:hover span {
     background-color: #FFC302 !important; }
 
+@media (min-width: 576px) {
+  .lead-slider-wrapper h1 {
+    font-size: 3rem;
+    padding-top: 150px; }
+  .lead-slider-wrapper .lead-title {
+    font-family: "GothamRounded-Book";
+    font-size: 1 !important; } }
+@media (min-width: 768px) {
+  .lead-slider-wrapper h1 {
+    font-size: 3.5rem;
+    padding-top: 200px; } }
+@media (min-width: 992px) {
+  .lead-slider-wrapper h1 {
+    font-size: 3.75rem; }
+  .lead-slider-wrapper .navbar img {
+    max-width: 100%; } }
 .brand-slider .owl-carousel {
   display: block; }
-  .brand-slider .owl-carousel a img {
-    padding: 10px; }
 
-.most-seller .section-title {
+.most-seller-wrapper .section-title {
   font-family: "BurbankSmall-Bold";
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin: 0 auto;
   background-image: url("assets/Group 3.png");
   background-repeat: no-repeat;
   background-position: center;
   text-align: center; }
-.most-seller .product-item {
+.most-seller-wrapper .product-item {
   position: relative;
-  padding: 15px; }
-.most-seller .sticker-discount {
+  padding: 5px; }
+.most-seller-wrapper .product-detail h5 {
+  font-size: 0.7rem; }
+.most-seller-wrapper .sticker-discount {
   position: absolute;
   top: 0;
-  right: 30px;
-  width: 75px;
-  height: 75px;
+  right: 0px;
+  width: 2rem;
+  height: 2rem;
   background-color: #FFC302;
   border-radius: 50%;
   color: #fff;
   text-align: center;
-  line-height: 75px;
-  font-size: 1.5rem; }
-.most-seller .sticker-new {
+  line-height: 2rem;
+  font-size: 0.7rem; }
+.most-seller-wrapper .sticker-new {
   position: absolute;
   top: 0;
   right: 0;
@@ -441,20 +465,41 @@ header .cart-icon {
   border-radius: 20px;
   color: #fff;
   text-transform: uppercase; }
-  .most-seller .sticker-new p {
+  .most-seller-wrapper .sticker-new p {
     margin-bottom: 0;
     padding: 2px 12px;
-    font-size: 14px; }
-.most-seller .product-detail h5 {
+    font-size: 0.7rem; }
+.most-seller-wrapper .product-detail h5 {
   font-family: "GothamRounded-Book"; }
-.most-seller .product-detail .current-price {
-  margin-top: 10px; }
-.most-seller .product-detail .old-price strike {
-  font-size: 13px;
-  color: #9B9B9B; }
-.most-seller ul.owl-carousel {
+.most-seller-wrapper .product-detail .current-price {
+  font-size: 0.7rem;
+  line-height: 1rem;
+  margin-bottom: 0; }
+.most-seller-wrapper .product-detail .old-price strike {
+  font-size: 0.5rem;
+  color: #9B9B9B;
+  max-width: 100%; }
+.most-seller-wrapper ul.owl-carousel {
   display: block; }
 
+@media (min-width: 576px) {
+  .most-seller-wrapper .product-detail h5 {
+    font-size: 1rem; }
+  .most-seller-wrapper .product-item .current-price {
+    font-size: 1rem; }
+  .most-seller-wrapper .product-item .old-price strike {
+    font-size: 0.7rem; } }
+@media (min-width: 768px) {
+  .most-seller-wrapper .section-title {
+    font-size: 2.5rem; }
+
+  .most-seller-wrapper .product-detail h5 {
+    font-size: 1.25rem; } }
+@media (min-width: 992px) {
+  .most-seller-wrapper .product-item .current-price {
+    font-size: 1.5rem; }
+  .most-seller-wrapper .product-item .old-price strike {
+    font-size: 1rem; } }
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
