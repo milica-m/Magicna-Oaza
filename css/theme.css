@@ -44,6 +44,10 @@ img {
   padding: 10px 20px;
   color: #fff; }
 
+h2 {
+  font-family: "BurbankSmall-Bold";
+  text-align: center; }
+
 .img-holder {
   position: relative;
   background: #ccc url("assets/logo-small.png") no-repeat center center;
@@ -432,6 +436,18 @@ header .lead-slider-wrapper h1 {
 .brand-slider .owl-carousel {
   display: block; }
 
+.product-item {
+  position: relative;
+  padding: 5px; }
+  .product-item > a {
+    height: 250px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9F9F9;
+    border-radius: 10px; }
+
 .most-seller-wrapper .section-title {
   font-family: "BurbankSmall-Bold";
   font-size: 1.5rem;
@@ -440,9 +456,6 @@ header .lead-slider-wrapper h1 {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center; }
-.most-seller-wrapper .product-item {
-  position: relative;
-  padding: 5px; }
 .most-seller-wrapper .product-detail h5 {
   font-size: 0.7rem; }
 .most-seller-wrapper .sticker-discount {
@@ -470,13 +483,14 @@ header .lead-slider-wrapper h1 {
     padding: 2px 12px;
     font-size: 0.7rem; }
 .most-seller-wrapper .product-detail h5 {
-  font-family: "GothamRounded-Book"; }
+  font-family: "GothamRounded-Book";
+  margin-bottom: 2rem; }
 .most-seller-wrapper .product-detail .current-price {
-  font-size: 0.7rem;
+  font-size: 0.3rem;
   line-height: 1rem;
   margin-bottom: 0; }
 .most-seller-wrapper .product-detail .old-price strike {
-  font-size: 0.5rem;
+  font-size: 0.1rem;
   color: #9B9B9B;
   max-width: 100%; }
 .most-seller-wrapper ul.owl-carousel {
@@ -491,15 +505,16 @@ header .lead-slider-wrapper h1 {
     font-size: 0.7rem; } }
 @media (min-width: 768px) {
   .most-seller-wrapper .section-title {
-    font-size: 2.5rem; }
+    font-size: 2rem; }
 
   .most-seller-wrapper .product-detail h5 {
     font-size: 1.25rem; } }
 @media (min-width: 992px) {
   .most-seller-wrapper .product-item .current-price {
-    font-size: 1.5rem; }
+    font-size: 1.2rem; }
   .most-seller-wrapper .product-item .old-price strike {
-    font-size: 1rem; } }
+    font-size: 1rem;
+    margin-right: 0.7rem; } }
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -509,15 +524,13 @@ and open the template in the editor.
     Created on : Feb 28, 2019, 9:48:27 PM
     Author     : User
 */
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Feb 28, 2019, 9:49:29 PM
-    Author     : User
-*/
+.all-age-wrapper img {
+  border-radius: 10px; }
+.all-age-wrapper .age-categories {
+  position: absolute;
+  top: 75%;
+  left: 15%; }
+
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -536,36 +549,45 @@ and open the template in the editor.
     Created on : Feb 28, 2019, 9:50:31 PM
     Author     : User
 */
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Feb 28, 2019, 9:51:18 PM
-    Author     : User
-*/
-footer {
-  background: #FFE19C; }
-  footer .row .footer-nav-link a {
-    font-size: 14px;
-    display: block;
-    text-decoration: none; }
-  footer .row .footer-nav-link a:hover {
-    color: #9B9B9B; }
-  footer .row .newsletter-items h5 {
-    font-size: 14px; }
-  footer .row .newsletter-items input {
-    border-radius: 20px;
-    border: 1px solid #494949;
-    padding: 10px 15px;
-    margin-bottom: 20px;
-    background-color: transparent; }
-  footer .row .newsletter-items button {
-    background: #F6F2FF;
-    padding: 10px 40px;
-    border-radius: 20px; }
-  footer .footer-bottom {
+.categories-wrapper {
+  background-color: #8759F2;
+  padding: 80px 0;
+  color: #fff; }
+  .categories-wrapper h5 {
     text-align: center; }
+  .categories-wrapper h2 {
+    font-family: "BurbankSmall-Bold";
+    text-align: center;
+    color: #fff;
+    margin-bottom: 77px; }
+  .categories-wrapper .categories-slider a {
+    background-color: #fff;
+    color: #8759F2; }
+  .categories-wrapper .categories-slider a:hover {
+    background-color: #F9F9F9; }
+
+footer .curve-bckg {
+  background-size: cover;
+  background-position: center center; }
+footer .row .footer-nav-link a {
+  font-size: 14px;
+  display: block;
+  text-decoration: none; }
+footer .row .footer-nav-link a:hover {
+  color: #9B9B9B; }
+footer .row .newsletter-items h5 {
+  font-size: 14px; }
+footer .row .newsletter-items input {
+  border-radius: 20px;
+  border: 1px solid #494949;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  background-color: transparent; }
+footer .row .newsletter-items button {
+  background: #F6F2FF;
+  padding: 10px 40px;
+  border-radius: 20px; }
+footer .footer-bottom {
+  text-align: center; }
 
 /*# sourceMappingURL=theme.css.map */

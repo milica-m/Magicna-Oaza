@@ -75,7 +75,52 @@ $('.close-small-cart').click(function(){
         });
         
         $('.most-seller-slider').owlCarousel({
+          
+           autoplay: false,
+           autoplayTimeout:4000,
+            autoplayHoverPause:true,
+           navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>'],
+           responsive:{
+               0:{
+                    items: 1
+               },
+               490:{
+                   items:2,
+                   margin:20
+               },
+               800:{
+                   items:3,
+                   margin:20
+               },
+               1200:{
+                   items:4,
+                   margin:20
+               }
+           }
+        });
+        
+        $('.brand-slider').owlCarousel({
+           items: 10,
+           dots: false,
+           autoplay: true,
+           autoplayTimeout:4000,
+            autoplayHoverPause:true,
+           navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>']
+        });
+        
+        $('.categories-slider').owlCarousel({
            items: 4,
+           autoplay: true,
+           autoplayTimeout:4000,
+            autoplayHoverPause:true,
+           navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>']
+        });
+        
+        $('.all-age-slider').owlCarousel({
+           items: 2,
+           dots: true,
+           loop: true,
+           nav: true,
            autoplay: true,
            autoplayTimeout:4000,
             autoplayHoverPause:true,

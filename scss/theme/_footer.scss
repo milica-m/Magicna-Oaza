@@ -2,7 +2,10 @@
 
 footer{
     
-    background: #FFE19C;
+    .curve-bckg{
+        background-size: cover;
+        background-position: center center;
+    }
     
      
      
@@ -39,5 +42,7 @@ footer{
     .footer-bottom{
         text-align: center;
     }
+    
+    
 }
 

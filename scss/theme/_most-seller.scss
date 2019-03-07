@@ -1,4 +1,18 @@
-
+ .product-item{
+        position: relative;
+        padding: 5px;
+       >  a{
+            height: 250px;
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            background-color: #F9F9F9;
+            border-radius: 10px;
+        }
+        
+       
+    }
 
 .most-seller-wrapper{
     .section-title{
@@ -11,13 +25,11 @@
         text-align: center;         
     }
 
-    .product-item{
-        position: relative;
-        padding: 5px;
-    }
+   
 
     .product-detail h5{
         font-size: 0.7rem;
+        
     }
 
 
@@ -57,17 +69,18 @@
 
         h5{
             font-family: $gotham-rounded-Book;
+            margin-bottom: 2rem;
         }
 
         .current-price{
-            font-size: 0.7rem;
+            font-size: 0.3rem;
             line-height: 1rem;
             margin-bottom: 0;
 
         }
 
         .old-price strike{
-            font-size: 0.5rem;
+            font-size: 0.1rem;
             color: $gray-500;
 
             max-width: 100%;
@@ -107,7 +120,7 @@
 @media(min-width:768px){
     .most-seller-wrapper{
         .section-title{
-            font-size: 2.5rem;
+            font-size: 2rem;
         }
     }
     .most-seller-wrapper{
@@ -122,10 +135,12 @@
     .most-seller-wrapper{
         .product-item{
             .current-price{
-                font-size: 1.5rem;
+                font-size: 1.2rem;
             }
             .old-price strike{
                 font-size: 1rem;
+                margin-right: 0.7rem;
+                
 
             }
         }
