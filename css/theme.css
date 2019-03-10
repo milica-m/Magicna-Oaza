@@ -581,7 +581,7 @@ and open the template in the editor.
       font-family: "GothamRounded-Book"; }
 
 .categories-wrapper {
-  background-color: #dee2e6;
+  background-color: #8759F2;
   padding: 80px 0;
   color: #fff; }
   .categories-wrapper .container {
@@ -648,7 +648,13 @@ and open the template in the editor.
   color: #FFC302;
   font-family: "GothamRounded-Bold"; }
 .single-product-wrapper .single-product img {
-  width: 100%; }
+  max-width: 100%; }
+.single-product-wrapper .single-product figure img {
+  width: 100%;
+  display: block; }
+.single-product-wrapper .single-product .btn {
+  color: #fff;
+  width: 200px; }
 .single-product-wrapper .bredcrumb-items {
   padding-top: 150px;
   font-family: "GothamRounded-Book";
