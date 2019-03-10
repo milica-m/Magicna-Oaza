@@ -1,0 +1,38 @@
+
+.single-product-wrapper{
+    
+.single-product{
+    
+    h1{
+        font-family: $burbank-smal-bold;
+        font-size: 4rem;
+        
+    }
+    p{
+        font-family: $gotham-rounded-Book;
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+    }
+    .single-price{
+        font-size: 3rem;
+        color: $warning; 
+        font-family: $gotham-rounded-bold;
+    }
+    
+    img{
+        width: 100%;
+    }
+}
+
+
+.bredcrumb-items{
+    padding-top: 150px;
+    font-family: $gotham-rounded-Book;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    
+    
+}
+
+
+}

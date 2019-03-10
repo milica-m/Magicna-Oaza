@@ -71,7 +71,24 @@ $('.close-small-cart').click(function(){
            autoplay: true,
            autoplayTimeout:4000,
             autoplayHoverPause:true,
-           navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>']
+           navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>'],
+           responsive:{
+               0:{
+                    items: 3
+               },
+               490:{
+                   items:6,
+                   margin:20
+               },
+               800:{
+                   items:9,
+                   margin:20
+               },
+               1200:{
+                   items:10,
+                   margin:20
+               }
+           }
         });
         
         $('.most-seller-slider').owlCarousel({
@@ -105,15 +122,50 @@ $('.close-small-cart').click(function(){
            autoplay: true,
            autoplayTimeout:4000,
             autoplayHoverPause:true,
-           navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>']
+           navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>'],
+           responsive:{
+               0:{
+                    items: 1
+               },
+               490:{
+                   items:2,
+                   margin:20
+               },
+               800:{
+                   items:3,
+                   margin:20
+               },
+               1200:{
+                   items:4,
+                   margin:20
+               }
+           }
         });
         
         $('.categories-slider').owlCarousel({
            items: 4,
+           dots: false,
            autoplay: true,
            autoplayTimeout:4000,
             autoplayHoverPause:true,
-           navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>']
+           navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>'],
+           responsive:{
+               0:{
+                    items: 1
+               },
+               490:{
+                   items:2,
+                   margin:20
+               },
+               800:{
+                   items:3,
+                   margin:20
+               },
+               1200:{
+                   items:4,
+                   margin:20
+               }
+           }
         });
         
         $('.all-age-slider').owlCarousel({
@@ -124,7 +176,16 @@ $('.close-small-cart').click(function(){
            autoplay: true,
            autoplayTimeout:4000,
             autoplayHoverPause:true,
-           navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>']
+           navText:['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>'],
+           responsive:{
+               0:{
+                    items: 1
+               },
+               600:{
+                   items:2,
+                   margin:20
+               }
+           }
         });
 
 

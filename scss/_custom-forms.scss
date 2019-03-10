@@ -414,7 +414,8 @@
   &::-moz-range-thumb {
     width: $custom-range-thumb-width;
     height: $custom-range-thumb-height;
-    @include gradient-bg($custom-range-thumb-bg);
+    @include gradient-bg($white);
+    background-color: #fff;
     border: $custom-range-thumb-border;
     @include border-radius($custom-range-thumb-border-radius);
     @include box-shadow($custom-range-thumb-box-shadow);
@@ -428,10 +429,10 @@
 
   &::-moz-range-track {
     width: $custom-range-track-width;
-    height: $custom-range-track-height;
+    
     color: transparent;
     cursor: $custom-range-track-cursor;
-    background-color: $custom-range-track-bg;
+    background-color: $white;
     border-color: transparent; // Firefox specific?
     @include border-radius($custom-range-track-border-radius);
     @include box-shadow($custom-range-track-box-shadow);

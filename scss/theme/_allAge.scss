@@ -1,12 +1,26 @@
+
+
 .all-age-wrapper{
+    
     img{
         border-radius: 10px;
     }
-    
-    .age-categories{
+
+    .age-categories p{
+        color: $white;
         position: absolute;
         top: 75%;
         left: 15%;
+        margin: 0 auto;
+        background-image: url('css/assets/Fill 2.png');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .all-age-slider{
+        .owl-carousel .owl-dots .owl-dot.active span, 
+        .owl-carousel .owl-dots .owl-dot:hover span{
+            background-color: $purple !important;
+        }
     }
 }
 

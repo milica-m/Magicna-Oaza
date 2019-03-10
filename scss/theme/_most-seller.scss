@@ -1,17 +1,61 @@
- .product-item{
-        position: relative;
-        padding: 5px;
-       >  a{
-            height: 250px;
-            display: flex;
-            width: 100%;
-            align-items: center;
-            justify-content: center;
-            background-color: #F9F9F9;
-            border-radius: 10px;
+ 
+.product-item{
+        img{
+        margin: 0 auto;
         }
         
-       
+        
+        .sticker-discount{
+                position: absolute;
+                top: 0;
+                right: 0px;
+                width: 4rem;
+                height: 4rem;
+                background-color: $warning;
+                border-radius: 50%;
+                color: $white;
+                text-align: center;
+                line-height: 4rem;
+                font-size: 1.5rem;
+
+            }
+
+            .sticker-new{
+                position: absolute;
+                top: 0;
+                right: 0;
+                background-color: $red;
+                border-radius: 20px;
+                color: $white;
+                text-transform: uppercase;
+
+                p{
+                    margin-bottom: 0;
+                    padding: 2px 12px;
+                    font-size: 0.7rem;
+                }
+        .product-detail {
+            h5{
+                a{
+                font-size: 1.25rem;
+                font-family: $gotham-rounded-Book;
+                margin-bottom: 2rem;
+                }
+            }
+            .current-price{
+                font-size: 1.5rem;
+                line-height: 1.5rem;
+                margin-bottom: 0;
+
+            }
+            .old-price strike{
+                font-size: 1rem;
+                color: $gray-500;
+                max-width: 100%;
+            }
+            
+            }
+        }
     }
 
 .most-seller-wrapper{
@@ -25,69 +69,14 @@
         text-align: center;         
     }
 
-   
 
-    .product-detail h5{
-        font-size: 0.7rem;
-        
-    }
+    
 
 
 
-    .sticker-discount{
-        position: absolute;
-        top: 0;
-        right: 0px;
-        width: 2rem;
-        height: 2rem;
-        background-color: $warning;
-        border-radius: 50%;
-        color: $white;
-        text-align: center;
-        line-height: 2rem;
-        font-size: 0.7rem;
-
-    }
-
-    .sticker-new{
-        position: absolute;
-        top: 0;
-        right: 0;
-        background-color: $red;
-        border-radius: 20px;
-        color: $white;
-        text-transform: uppercase;
-
-        p{
-            margin-bottom: 0;
-            padding: 2px 12px;
-            font-size: 0.7rem;
-        }
-    }
-
-    .product-detail{
-
-        h5{
-            font-family: $gotham-rounded-Book;
-            margin-bottom: 2rem;
-        }
-
-        .current-price{
-            font-size: 0.3rem;
-            line-height: 1rem;
-            margin-bottom: 0;
-
-        }
-
-        .old-price strike{
-            font-size: 0.1rem;
-            color: $gray-500;
-
-            max-width: 100%;
-        }
 
 
-    }
+
 
 
 
@@ -100,49 +89,7 @@
 
 }
 
-@media(min-width:576px){
-    .most-seller-wrapper{
-        .product-detail h5{
-            font-size: 1rem;
-        }
-        .product-item{
-            .current-price{
-                font-size: 1rem;
-            }
-            .old-price strike{
-                font-size: 0.7rem;
 
-            }
-        }
-    }
-}
 
-@media(min-width:768px){
-    .most-seller-wrapper{
-        .section-title{
-            font-size: 2rem;
-        }
-    }
-    .most-seller-wrapper{
-        .product-detail h5{
-            font-size: 1.25rem;
-        }
 
-    }
-}
 
-@media(min-width:992px){
-    .most-seller-wrapper{
-        .product-item{
-            .current-price{
-                font-size: 1.2rem;
-            }
-            .old-price strike{
-                font-size: 1rem;
-                margin-right: 0.7rem;
-                
-
-            }
-        }
-    }
-}

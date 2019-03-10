@@ -44,6 +44,20 @@ img {
   padding: 10px 20px;
   color: #fff; }
 
+.btn-gray-light {
+  border: none;
+  background: #F9F9F9;
+  border-radius: 36px;
+  padding: 10px 20px;
+  color: #494949; }
+
+.btn-outline-light {
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 36px;
+  padding: 10px 20px;
+  color: #494949; }
+
 h2 {
   font-family: "BurbankSmall-Bold";
   text-align: center; }
@@ -70,6 +84,29 @@ h2 {
     top: 0;
     left: 0;
     width: 100%; }
+
+.owl-carousel .owl-dots .owl-dot span {
+  width: 11px;
+  height: 11px;
+  color: #CFCFCF;
+  margin-right: 13px; }
+
+.owl-carousel .owl-dots .owl-dot.active span,
+.owl-carousel .owl-dots .owl-dot:hover span {
+  background-color: #FFC302 !important; }
+
+.all-age-slider .owl-carousel .owl-dots .owl-dot.active span,
+.all-age-slider .owl-carousel .owl-dots .owl-dot:hover span {
+  background-color: #8759F2 !important; }
+
+.section-title {
+  font-family: "BurbankSmall-Bold";
+  font-size: 1.5rem;
+  margin: 0 auto;
+  background-image: url("assets/Group 3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center; }
 
 /* Buzz Out */
 @-webkit-keyframes buzz {
@@ -436,17 +473,44 @@ header .lead-slider-wrapper h1 {
 .brand-slider .owl-carousel {
   display: block; }
 
-.product-item {
-  position: relative;
-  padding: 5px; }
-  .product-item > a {
-    height: 250px;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    background-color: #F9F9F9;
-    border-radius: 10px; }
+.product-item img {
+  margin: 0 auto; }
+.product-item .sticker-discount {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 4rem;
+  height: 4rem;
+  background-color: #FFC302;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  line-height: 4rem;
+  font-size: 1.5rem; }
+.product-item .sticker-new {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #FF151F;
+  border-radius: 20px;
+  color: #fff;
+  text-transform: uppercase; }
+  .product-item .sticker-new p {
+    margin-bottom: 0;
+    padding: 2px 12px;
+    font-size: 0.7rem; }
+  .product-item .sticker-new .product-detail h5 a {
+    font-size: 1.25rem;
+    font-family: "GothamRounded-Book";
+    margin-bottom: 2rem; }
+  .product-item .sticker-new .product-detail .current-price {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-bottom: 0; }
+  .product-item .sticker-new .product-detail .old-price strike {
+    font-size: 1rem;
+    color: #9B9B9B;
+    max-width: 100%; }
 
 .most-seller-wrapper .section-title {
   font-family: "BurbankSmall-Bold";
@@ -456,65 +520,9 @@ header .lead-slider-wrapper h1 {
   background-repeat: no-repeat;
   background-position: center;
   text-align: center; }
-.most-seller-wrapper .product-detail h5 {
-  font-size: 0.7rem; }
-.most-seller-wrapper .sticker-discount {
-  position: absolute;
-  top: 0;
-  right: 0px;
-  width: 2rem;
-  height: 2rem;
-  background-color: #FFC302;
-  border-radius: 50%;
-  color: #fff;
-  text-align: center;
-  line-height: 2rem;
-  font-size: 0.7rem; }
-.most-seller-wrapper .sticker-new {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-color: #FF151F;
-  border-radius: 20px;
-  color: #fff;
-  text-transform: uppercase; }
-  .most-seller-wrapper .sticker-new p {
-    margin-bottom: 0;
-    padding: 2px 12px;
-    font-size: 0.7rem; }
-.most-seller-wrapper .product-detail h5 {
-  font-family: "GothamRounded-Book";
-  margin-bottom: 2rem; }
-.most-seller-wrapper .product-detail .current-price {
-  font-size: 0.3rem;
-  line-height: 1rem;
-  margin-bottom: 0; }
-.most-seller-wrapper .product-detail .old-price strike {
-  font-size: 0.1rem;
-  color: #9B9B9B;
-  max-width: 100%; }
 .most-seller-wrapper ul.owl-carousel {
   display: block; }
 
-@media (min-width: 576px) {
-  .most-seller-wrapper .product-detail h5 {
-    font-size: 1rem; }
-  .most-seller-wrapper .product-item .current-price {
-    font-size: 1rem; }
-  .most-seller-wrapper .product-item .old-price strike {
-    font-size: 0.7rem; } }
-@media (min-width: 768px) {
-  .most-seller-wrapper .section-title {
-    font-size: 2rem; }
-
-  .most-seller-wrapper .product-detail h5 {
-    font-size: 1.25rem; } }
-@media (min-width: 992px) {
-  .most-seller-wrapper .product-item .current-price {
-    font-size: 1.2rem; }
-  .most-seller-wrapper .product-item .old-price strike {
-    font-size: 1rem;
-    margin-right: 0.7rem; } }
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -526,10 +534,18 @@ and open the template in the editor.
 */
 .all-age-wrapper img {
   border-radius: 10px; }
-.all-age-wrapper .age-categories {
+.all-age-wrapper .age-categories p {
+  color: #fff;
   position: absolute;
   top: 75%;
-  left: 15%; }
+  left: 15%;
+  margin: 0 auto;
+  background-image: url("css/assets/Fill 2.png");
+  background-repeat: no-repeat;
+  background-position: center; }
+.all-age-wrapper .all-age-slider .owl-carousel .owl-dots .owl-dot.active span,
+.all-age-wrapper .all-age-slider .owl-carousel .owl-dots .owl-dot:hover span {
+  background-color: #8759F2 !important; }
 
 /*
 To change this license header, choose License Headers in Project Properties.
@@ -540,54 +556,134 @@ and open the template in the editor.
     Created on : Feb 28, 2019, 9:50:07 PM
     Author     : User
 */
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Feb 28, 2019, 9:50:31 PM
-    Author     : User
-*/
+.ask-magzi {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  background-position: center top; }
+  .ask-magzi figure {
+    position: relative;
+    background-color: #9B9B9B; }
+    .ask-magzi figure img {
+      display: block;
+      max-width: 100%;
+      position: absolute;
+      top: 0px;
+      left: 0px; }
+  .ask-magzi .filter-items {
+    height: 55px;
+    position: relative; }
+    .ask-magzi .filter-items select, .ask-magzi .filter-items input {
+      background-color: #F9F9F9;
+      border: none;
+      color: #494949;
+      width: 150px;
+      font-family: "GothamRounded-Book"; }
+
 .categories-wrapper {
-  background-color: #8759F2;
+  background-color: #dee2e6;
   padding: 80px 0;
   color: #fff; }
+  .categories-wrapper .container {
+    padding: 0; }
   .categories-wrapper h5 {
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 2.3rem;
+    font-size: 1.8rem; }
   .categories-wrapper h2 {
     font-family: "BurbankSmall-Bold";
     text-align: center;
     color: #fff;
-    margin-bottom: 77px; }
+    font-size: 2.5rem;
+    background-image: none; }
+  .categories-wrapper .categories-slider .categories-item {
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    border-right: 1px solid #fff; }
+    .categories-wrapper .categories-slider .categories-item img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 2.8rem; }
+  .categories-wrapper .categories-slider .categories-item:nth-of-type(3) {
+    border-right: none; }
   .categories-wrapper .categories-slider a {
     background-color: #fff;
-    color: #8759F2; }
+    color: #8759F2;
+    display: block;
+    margin: 0 auto;
+    width: 10rem;
+    margin-bottom: 20px; }
   .categories-wrapper .categories-slider a:hover {
     background-color: #F9F9F9; }
 
-footer .curve-bckg {
-  background-size: cover;
-  background-position: center center; }
-footer .row .footer-nav-link a {
-  font-size: 14px;
-  display: block;
-  text-decoration: none; }
-footer .row .footer-nav-link a:hover {
-  color: #9B9B9B; }
-footer .row .newsletter-items h5 {
-  font-size: 14px; }
-footer .row .newsletter-items input {
-  border-radius: 20px;
-  border: 1px solid #494949;
-  padding: 10px 15px;
-  margin-bottom: 20px;
+.header-products {
+  background-color: #8759F2;
+  padding: 50px 0;
+  position: relative; }
+  .header-products ul {
+    font-family: "GothamRounded-Book";
+    color: #fff;
+    font-size: 14px;
+    margin-right: 0 auto; }
+  .header-products .custom-range {
+    max-width: 150px;
+    height: 2px;
+    padding: 0;
+    background-color: #4F22BA;
+    appearance: none; }
+
+.bckg-transparent {
   background-color: transparent; }
-footer .row .newsletter-items button {
-  background: #F6F2FF;
-  padding: 10px 40px;
-  border-radius: 20px; }
-footer .footer-bottom {
-  text-align: center; }
+
+.single-product-wrapper .single-product h1 {
+  font-family: "BurbankSmall-Bold";
+  font-size: 4rem; }
+.single-product-wrapper .single-product p {
+  font-family: "GothamRounded-Book";
+  font-size: 1.5rem;
+  margin-bottom: 50px; }
+.single-product-wrapper .single-product .single-price {
+  font-size: 3rem;
+  color: #FFC302;
+  font-family: "GothamRounded-Bold"; }
+.single-product-wrapper .single-product img {
+  width: 100%; }
+.single-product-wrapper .bredcrumb-items {
+  padding-top: 150px;
+  font-family: "GothamRounded-Book";
+  font-size: 1.2rem;
+  margin-bottom: 50px; }
+
+footer {
+  background-color: #8759F2; }
+  footer .curve-bckg {
+    background-size: cover;
+    background-position: center center;
+    background-position: center top;
+    top: 0;
+    padding-top: 100px; }
+  footer .row .footer-nav-link a {
+    font-size: 14px;
+    display: block;
+    text-decoration: none; }
+  footer .row .footer-nav-link a:hover {
+    color: #9B9B9B; }
+  footer .row .newsletter-items h5 {
+    font-size: 14px; }
+  footer .row .newsletter-items input {
+    border-radius: 20px;
+    border: 1px solid #494949;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    background-color: transparent; }
+  footer .row .newsletter-items button {
+    background: #F6F2FF;
+    padding: 10px 40px;
+    border-radius: 20px; }
+  footer .footer-bottom {
+    text-align: center;
+    background-color: #FFE19C;
+    font-family: "GothamRounded-Book"; }
 
 /*# sourceMappingURL=theme.css.map */

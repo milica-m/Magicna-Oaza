@@ -6,7 +6,7 @@
 // Color system
 
 $white:    #fff !default;
-$gray-100: #f8f9fa !default;
+$gray-100: #F9F9F9 !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
 $gray-400: #CFCFCF !default;
@@ -60,7 +60,7 @@ $colors: map-merge(
     "teal":       $teal,
     "cyan":       $cyan,
     "white":      $white,
-    "gray-light": $gray-400,
+    "gray-light": $gray-100,
     "gray-medium":$gray-500,
     "gray-dark":  $gray-700
   ),

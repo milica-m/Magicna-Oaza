@@ -1,0 +1,25 @@
+
+
+.header-products{
+    background-color: $purple;
+    padding: 50px 0;
+    position: relative;
+    ul{
+        font-family: $gotham-rounded-Book;
+        color: $white;
+        font-size: 14px;
+        margin-right: 0 auto;
+    }
+
+    .custom-range{
+        max-width: 150px;
+        height: 2px;
+        padding: 0; // Need to reset padding
+        background-color: #4F22BA;
+        appearance: none;
+    }
+}
+
+.bckg-transparent{
+    background-color: transparent;
+}
