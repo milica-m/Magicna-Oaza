@@ -1,4 +1,12 @@
-
+.form-input{
+            margin-right: auto;
+            display: block;
+            color: $purple;
+            font-family: $gotham-rounded-Book;
+            letter-spacing: 3.71px;
+            font-size: 0.8;
+            
+        }
 
 .log-in-wrapper{
     padding-top: 200px;
@@ -21,9 +29,11 @@
         
         
         
-        p{
+        .form-input{
             margin-right: auto;
             display: block;
+            color: $purple;
+            font-family: $gotham-rounded-Book;
         }
     }
         

@@ -41,7 +41,7 @@ img {
 
 .btn {
   border-radius: 36px;
-  padding: 10px 20px;
+  /*    padding: 10px 20px;*/
   color: #fff; }
 
 .btn-gray-light {
@@ -683,6 +683,14 @@ and open the template in the editor.
   font-size: 1.2rem;
   margin-bottom: 50px; }
 
+.form-input {
+  margin-right: auto;
+  display: block;
+  color: #8759F2;
+  font-family: "GothamRounded-Book";
+  letter-spacing: 3.71px;
+  font-size: 0.8; }
+
 .log-in-wrapper {
   padding-top: 200px;
   padding-bottom: 250px;
@@ -694,9 +702,11 @@ and open the template in the editor.
     font-size: 3.75rem; }
   .log-in-wrapper .log-in-items {
     text-align: center; }
-    .log-in-wrapper .log-in-items p {
+    .log-in-wrapper .log-in-items .form-input {
       margin-right: auto;
-      display: block; }
+      display: block;
+      color: #8759F2;
+      font-family: "GothamRounded-Book"; }
   .log-in-wrapper figure {
     position: relative; }
     .log-in-wrapper figure img {
@@ -709,6 +719,14 @@ and open the template in the editor.
   .log-in-wrapper button {
     width: 233px;
     font-size: 1.2rem; }
+
+.register-wrapper .container-small {
+  width: 811px;
+  margin: 0 auto;
+  padding: 200px 50px; }
+  .register-wrapper .container-small h2 {
+    font-size: 3.75rem;
+    margin: 0 auto; }
 
 footer {
   background-color: #8759F2; }
