@@ -58,6 +58,28 @@ img {
   padding: 10px 20px;
   color: #494949; }
 
+.btn-outline-glight {
+  background: transparent;
+  border: 1px solid #CFCFCF;
+  border-radius: 36px;
+  padding: 10px 20px;
+  color: #494949; }
+
+.btn-outline-glight:hover {
+  background: #CFCFCF;
+  border: 1px solid #CFCFCF;
+  border-radius: 36px;
+  padding: 10px 20px;
+  color: #494949; }
+
+.btn-outline-glight:focus {
+  background: #fff;
+  border: 1px solid #CFCFCF;
+  border-radius: 36px;
+  padding: 10px 20px;
+  color: #494949;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.1); }
+
 h2 {
   font-family: "BurbankSmall-Bold";
   text-align: center; }
@@ -660,6 +682,33 @@ and open the template in the editor.
   font-family: "GothamRounded-Book";
   font-size: 1.2rem;
   margin-bottom: 50px; }
+
+.log-in-wrapper {
+  padding-top: 200px;
+  padding-bottom: 250px;
+  position: relative;
+  /*    background-size: cover;*/
+  background-position: bottom center;
+  background-repeat: no-repeat; }
+  .log-in-wrapper h2 {
+    font-size: 3.75rem; }
+  .log-in-wrapper .log-in-items {
+    text-align: center; }
+    .log-in-wrapper .log-in-items p {
+      margin-right: auto;
+      display: block; }
+  .log-in-wrapper figure {
+    position: relative; }
+    .log-in-wrapper figure img {
+      display: block;
+      max-width: 100%;
+      position: absolute;
+      width: 435px;
+      height: 397px;
+      bottom: -600px; }
+  .log-in-wrapper button {
+    width: 233px;
+    font-size: 1.2rem; }
 
 footer {
   background-color: #8759F2; }

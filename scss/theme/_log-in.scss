@@ -1,0 +1,51 @@
+
+
+.log-in-wrapper{
+    padding-top: 200px;
+    padding-bottom: 250px;
+    position: relative;
+/*    background-size: cover;*/
+    background-position: bottom center;    
+    background-repeat: no-repeat; 
+    
+    
+    
+   
+    h2{
+        font-size:3.75rem; 
+    }
+    .log-in-items{
+        text-align:center;
+        
+        
+        
+        
+        
+        p{
+            margin-right: auto;
+            display: block;
+        }
+    }
+        
+    
+    figure{
+        position:relative;
+        
+        img{
+            display: block;
+            max-width: 100%;
+            position: absolute;
+            width: 435px;
+            height: 397px;
+            bottom: -600px;
+            
+        }
+    }
+    
+    button{
+       width: 233px;
+       font-size: 1.2rem;
+    }
+    
+}
+
